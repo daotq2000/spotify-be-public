@@ -5,6 +5,7 @@ weight : 2
 chapter : false
 pre : " <b> 2.3.1 </b> "
 ---
+![AWS DESIGN ARCHITECTURE](architechture.svg?featherlight=false&width=100pc)
 
 ## Introduction:
 In this challenge, the backend system is the core component of the Music Serverless Application. It is responsible for handling all business logic, processing requests, managing data, and ensuring the application's smooth operation. The backend will be built using Java and the Spring Boot framework, leveraging a variety of AWS services to ensure scalability, reliability, and performance.

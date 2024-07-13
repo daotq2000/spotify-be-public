@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99e19f14-7a45-40e4-a916-bd2c59ee0fd6" name="Changes" comment="final" />
+    <list default="true" id="99e19f14-7a45-40e4-a916-bd2c59ee0fd6" name="Changes" comment="final">
+      <change afterPath="$PROJECT_DIR$/architechture.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,6 +65,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/terraform-infas" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -105,6 +109,7 @@
       <workItem from="1720853198516" duration="52000" />
       <workItem from="1720853392457" duration="1380000" />
       <workItem from="1720854780826" duration="265000" />
+      <workItem from="1720856065683" duration="171000" />
     </task>
     <task id="LOCAL-00001" summary="update all">
       <option name="closed" value="true" />
