@@ -1,0 +1,18 @@
+security:
+  jwt:
+    uri: /auth/**
+    header: Authorization
+    prefix: Bearer
+    expiration: 1000
+    secret: JwtSecretKey
+apiCloud:
+  client_id: ${CLIENT_ID:aaa}
+  client_secret: ${CLIENT_SECRET:c}
+  cloud_name: ${CLOUD_NAME:a}
+server:
+  uri:
+    front-end: ${URI_FRONT_END:https://spotifymp3.herokuapp.com/}
+aws:
+  region: ${AWS_REGION:us-east-1}
+  access_key: ${AWS_ACCESS_KEY:abc}
+  secret_key: ${AWS_SECRET_KEY:xyz}
