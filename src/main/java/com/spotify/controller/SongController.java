@@ -143,7 +143,7 @@ public class SongController {
         return pResponse;
     }
 
-    @GetMapping("/top15")
+    @PostMapping("/top15")
     public ResponseEntity<List<SongResponseType>> getTop15BestSong() throws JsonProcessingException {
         ResponseEntity<List<SongResponseType>> pResponse;
         String reqStartTime = GenericsHelper.getDateTime();

@@ -1,10 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.spotify.main.SpotifyBackendApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 39.815 s <<< FAILURE! - in com.spotify.main.SpotifyBackendApplicationTests
-contextLoads  Time elapsed: 0.001 s  <<< ERROR!
-java.lang.IllegalStateException: Failed to load ApplicationContext
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'albumController' defined in file [/home/ubuntu-server/Documents/git/github/spotify-be-public/target/classes/com/spotify/controller/AlbumController.class]: Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.spotify.controller.AlbumController]: Constructor threw exception; nested exception is java.lang.NullPointerException
-Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.spotify.controller.AlbumController]: Constructor threw exception; nested exception is java.lang.NullPointerException
-Caused by: java.lang.NullPointerException
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 27.266 s - in com.spotify.main.SpotifyBackendApplicationTests
