@@ -61,7 +61,7 @@
     "Spring Boot.SpotifyBackendApplication.executor": "Debug",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/media/luongtx/Workspace/GITHUB/spotify-be-public",
+    "last_opened_file_path": "/media/luongtx/Workspace/PMS/jenkins-helmvalues",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -126,6 +126,7 @@
       <workItem from="1730457669525" duration="697000" />
       <workItem from="1730684085924" duration="176000" />
       <workItem from="1732347129165" duration="3358000" />
+      <workItem from="1732608129264" duration="2838000" />
     </task>
     <task id="LOCAL-00001" summary="update all">
       <option name="closed" value="true" />
@@ -191,7 +192,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732357473242</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="fix: update">
+      <option name="closed" value="true" />
+      <created>1732608197955</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1732608197955</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
