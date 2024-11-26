@@ -3,7 +3,7 @@ security:
     uri: /auth/**
     header: Authorization
     prefix: Bearer
-    expiration: 1000
+    expiration: 1000000000000
     secret: JwtSecretKey
 apiCloud:
   client_id: ${CLIENT_ID:aaa}
