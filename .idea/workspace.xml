@@ -4,7 +4,134 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99e19f14-7a45-40e4-a916-bd2c59ee0fd6" name="Changes" comment="fix: update" />
+    <list default="true" id="99e19f14-7a45-40e4-a916-bd2c59ee0fd6" name="Changes" comment="fix: update">
+      <change afterPath="$PROJECT_DIR$/spotify_log/Album.log.lck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spotify_log/Artist.log.lck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spotify_log/Genres.log.lck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spotify_log/Song.log.lck" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/SpotifyBackendApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/SpotifyBackendApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/config/RedisConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/config/RedisConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/config/WebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/config/WebConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/controller/AlbumController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/controller/AlbumController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/controller/ArtistController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/controller/ArtistController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/controller/FileController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/controller/FileController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/controller/GenresController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/controller/GenresController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/controller/SongController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/controller/SongController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/controller/request/CountModelRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/controller/request/CountModelRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/dto/converter/AlbumConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/dto/converter/AlbumConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/dto/converter/AlbumSongConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/dto/converter/AlbumSongConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/dto/converter/ArtistConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/dto/converter/ArtistConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/dto/converter/ArtistSongConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/dto/converter/ArtistSongConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/dto/converter/GenresConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/dto/converter/GenresConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/dto/converter/SongConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/dto/converter/SongConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/dto/converter/UserConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/dto/converter/UserConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/dto/request/PaginationRequest$PaginationRequestBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/dto/request/PaginationRequest$PaginationRequestBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/dto/request/PaginationRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/dto/request/PaginationRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/dto/response/AlbumResponseType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/dto/response/AlbumResponseType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/dto/response/AlbumSongResponseType$AlbumSongResponseTypeBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/dto/response/AlbumSongResponseType$AlbumSongResponseTypeBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/dto/response/AlbumSongResponseType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/dto/response/AlbumSongResponseType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/dto/response/ArtistAlbumResponseType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/dto/response/ArtistAlbumResponseType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/dto/response/ArtistResponseType$ArtistResponseTypeBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/dto/response/ArtistResponseType$ArtistResponseTypeBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/dto/response/ArtistResponseType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/dto/response/ArtistResponseType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/dto/response/ArtistSongResponseType$ArtistSongResponseTypeBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/dto/response/ArtistSongResponseType$ArtistSongResponseTypeBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/dto/response/ArtistSongResponseType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/dto/response/ArtistSongResponseType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/dto/response/CloudinaryResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/dto/response/CloudinaryResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/dto/response/GenresResponseType$GenresResponseTypeBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/dto/response/GenresResponseType$GenresResponseTypeBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/dto/response/GenresResponseType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/dto/response/GenresResponseType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/dto/response/HistoryListenResponseType$HistoryListenResponseTypeBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/dto/response/HistoryListenResponseType$HistoryListenResponseTypeBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/dto/response/HistoryListenResponseType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/dto/response/HistoryListenResponseType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/dto/response/PlayListResponseType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/dto/response/PlayListResponseType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/dto/response/PlayListSongResponseType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/dto/response/PlayListSongResponseType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/dto/response/RoleResponseType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/dto/response/RoleResponseType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/dto/response/SongResponseType$SongResponseTypeBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/dto/response/SongResponseType$SongResponseTypeBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/dto/response/SongResponseType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/dto/response/SongResponseType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/dto/response/UploadFileResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/dto/response/UploadFileResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/dto/response/UserFileResponseType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/dto/response/UserFileResponseType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/dto/response/UserResponseType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/dto/response/UserResponseType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/entities/AlbumSongId.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/entities/AlbumSongId.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/entities/AlbumSongs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/entities/AlbumSongs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/entities/Albums.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/entities/Albums.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/entities/ArtistAlbumId.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/entities/ArtistAlbumId.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/entities/ArtistAlbums.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/entities/ArtistAlbums.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/entities/ArtistSongId.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/entities/ArtistSongId.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/entities/ArtistSongs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/entities/ArtistSongs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/entities/Artists.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/entities/Artists.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/entities/Genres.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/entities/Genres.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/entities/HistoryListens.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/entities/HistoryListens.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/entities/PlayListSongId.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/entities/PlayListSongId.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/entities/PlayListSongs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/entities/PlayListSongs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/entities/PlayLists.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/entities/PlayLists.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/entities/Roles.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/entities/Roles.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/entities/Songs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/entities/Songs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/entities/UserFiles.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/entities/UserFiles.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/entities/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/entities/Users.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/exception/FileStorageException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/exception/FileStorageException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/exception/MyFileNotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/exception/MyFileNotFoundException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/exception/NotFoundEntityException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/exception/NotFoundEntityException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/exception/TokenExpiredException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/exception/TokenExpiredException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/lambdafunctions/AlbumPaginationFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/lambdafunctions/AlbumPaginationFunction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/repository/AlbumRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/repository/AlbumRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/repository/AlbumSongRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/repository/AlbumSongRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/repository/ArtistAlbumRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/repository/ArtistAlbumRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/repository/ArtistRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/repository/ArtistRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/repository/ArtistSongRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/repository/ArtistSongRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/repository/GenresRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/repository/GenresRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/repository/HistoryListenRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/repository/HistoryListenRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/repository/PlayListRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/repository/PlayListRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/repository/PlayListSongRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/repository/PlayListSongRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/repository/RoleRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/repository/RoleRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/repository/SongRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/repository/SongRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/repository/UserFileRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/repository/UserFileRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/repository/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/security/JwtConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/security/JwtConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/security/JwtTokenAuthenticationFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/security/JwtTokenAuthenticationFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/security/JwtUsernameAndPasswordAuthenticationFilter$UserCredentials.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/security/JwtUsernameAndPasswordAuthenticationFilter$UserCredentials.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/security/JwtUsernameAndPasswordAuthenticationFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/security/JwtUsernameAndPasswordAuthenticationFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/security/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/security/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/security/SecurityCredentialsConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/security/SecurityCredentialsConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/security/UserDetailsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/security/UserDetailsServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/service/AlbumService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/service/AlbumService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/service/ArtistAlbumService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/service/ArtistAlbumService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/service/ArtistService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/service/ArtistService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/service/ArtistSongService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/service/ArtistSongService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/service/BaseService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/service/BaseService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/service/GenresService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/service/GenresService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/service/HistoryListenService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/service/HistoryListenService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/service/PlayListService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/service/PlayListService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/service/RoleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/service/RoleService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/service/SongService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/service/SongService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/service/UserFileService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/service/UserFileService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/service/impl/AlbumServiceImpl$CACHE.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/service/impl/AlbumServiceImpl$CACHE.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/service/impl/AlbumServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/service/impl/AlbumServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/service/impl/ArtistAlbumServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/service/impl/ArtistAlbumServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/service/impl/ArtistServiceImpl$CACHE.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/service/impl/ArtistServiceImpl$CACHE.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/service/impl/ArtistServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/service/impl/ArtistServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/service/impl/ArtistSongServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/service/impl/ArtistSongServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/service/impl/FileStorageServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/service/impl/FileStorageServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/service/impl/GenresServiceImpl$CACHE.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/service/impl/GenresServiceImpl$CACHE.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/service/impl/GenresServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/service/impl/GenresServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/service/impl/HistoryListenServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/service/impl/HistoryListenServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/service/impl/SongServiceImpl$CACHE.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/service/impl/SongServiceImpl$CACHE.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/service/impl/SongServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/service/impl/SongServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/service/impl/UserFileServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/service/impl/UserFileServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/service/mapper/ModelMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/service/mapper/ModelMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/service/mapper/SongMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/service/mapper/SongMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/ultils/Constraints.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/ultils/Constraints.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/ultils/FileStorageProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/ultils/FileStorageProperties.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/ultils/GenericsHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/ultils/GenericsHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/ultils/LoggerFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/ultils/LoggerFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/ultils/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/ultils/Utils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.spotify.main.SpotifyBackendApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.spotify.main.SpotifyBackendApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.spotify.main.SpotifyBackendApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.spotify.main.SpotifyBackendApplicationTests.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -126,7 +253,7 @@
       <workItem from="1730457669525" duration="697000" />
       <workItem from="1730684085924" duration="176000" />
       <workItem from="1732347129165" duration="3358000" />
-      <workItem from="1732608129264" duration="2838000" />
+      <workItem from="1732608129264" duration="10102000" />
     </task>
     <task id="LOCAL-00001" summary="update all">
       <option name="closed" value="true" />
@@ -200,7 +327,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732608197955</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="fix: update">
+      <option name="closed" value="true" />
+      <created>1732617311688</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1732617311688</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
